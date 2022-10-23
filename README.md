@@ -3,5 +3,6 @@
 - Not an official page of course, just something I wanted to build for fun and to practice my skills on something I like.
 
 ## Want to take a peek?
+- https://izacespinoza.github.io/BF2042-Webpage/
 
 
