@@ -8,21 +8,47 @@
 *{
     padding: 0;
     margin: 0;
+    color: white;
 }
 body{
     background-color: var(--darkest-blue-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+/*Navigation bar styling*/
 #top-nav{
     width: 100%;
-    height: 50px;
+    height: auto;
     background-color: black;
     display: flex;
     justify-content: space-between;
-}#top-nav ul, div{/*Just to highlight elems in nav*/
+}
+#title-link{
+    color: white;
+    padding: 5px;
+}
+#top-nav ul{/*Just to highlight elems in nav*/
     border: 2px dotted red;
-}#page-anchors, #social-links{
+}
+#page-anchors, #social-links{
     display: flex;
     padding: 10px;
     gap: 10px;
     list-style: none;
+}
+/*Main styling*/
+#main{
+    height: auto;
+    width: 100%;
+}
+#main img{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+#main header{
+    padding: 10px;
+    text-align: center;
+}
+#main article{
+    padding: 10px;
 }
