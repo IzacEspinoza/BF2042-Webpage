@@ -23,32 +23,43 @@ body{
     justify-content: space-between;
 }
 #title-link{
-    color: white;
     padding: 5px;
 }
-#top-nav ul{/*Just to highlight elems in nav*/
-    border: 2px dotted red;
+#title-link a{
+    text-decoration: none;
+}
+#title-link:hover{
+    cursor: pointer;
+    font-style: italic;
 }
 #page-anchors, #social-links{
     display: flex;
-    padding: 10px;
+    padding: 5px;
     gap: 10px;
     list-style: none;
 }
-/*Main styling*/
-#main{
-    height: auto;
-    width: 100%;
+#page-anchors a, #social-links a{
+    text-decoration: none;
 }
-#main img{
+#page-anchors a:hover, #social-links a:hover{
+    font-style: italic;
+}
+/*Header styling*/
+/*Header outline
+header{
+    border: 2px dotted red;
+}
+*/
+header img{
     width: 100%;
     height: auto;
+}
+header h1{
+    text-align: center;
     padding: 5px;
 }
-#main header{
+header article{
     padding: 10px;
+    margin: 10px;
     text-align: center;
-}
-#main article{
-    padding: 10px;
 }
